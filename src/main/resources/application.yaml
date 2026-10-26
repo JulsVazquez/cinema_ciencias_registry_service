@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: cinema_ciencias_registry_service
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
